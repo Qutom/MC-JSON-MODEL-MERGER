@@ -1,0 +1,69 @@
+{
+	"__comment": "Designed by Qutom with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"silver": "blocks/concrete_silver",
+		"gray_wool": "blocks/wool_colored_silver",
+		"gray": "blocks/concrete_gray",
+		"white_wool": "blocks/wool_colored_white",
+		"lime": "blocks/concrete_lime",
+		"blue": "blocks/concrete_blue",
+		"black": "blocks/concrete_black",
+		"red": "blocks/concrete_red"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 7.5625, 6.2813, 3.4687 ],
+			"to": [ 8.4375, 9.68755, 4.49995 ],
+			"rotation": { "origin": [ 7.5625, 6.2813, 3.4687 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 4, 1, 2, 2 ], "texture": "#white_wool" },
+				"up": { "uv": [ 4, 1, 2, 2 ], "texture": "#white_wool" },
+				"north": { "uv": [ 4, 1, 2, 2 ], "texture": "#white_wool" },
+				"south": { "uv": [ 4, 1, 2, 2 ], "texture": "#white_wool" },
+				"west": { "uv": [ 4, 1, 2, 2 ], "texture": "#white_wool" },
+				"east": { "uv": [ 4, 1, 2, 2 ], "texture": "#white_wool" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 7.25, 8, 2.125 ],
+			"to": [ 8.75, 8.40625, 4.53125 ],
+			"faces": {
+				"down": { "uv": [ 4, 1, 2, 2 ], "texture": "#gray" },
+				"up": { "uv": [ 4, 1, 2, 2 ], "texture": "#gray" },
+				"north": { "uv": [ 4, 1, 2, 2 ], "texture": "#gray" },
+				"south": { "uv": [ 4, 1, 2, 2 ], "texture": "#gray" },
+				"west": { "uv": [ 4, 1, 2, 2 ], "texture": "#gray" },
+				"east": { "uv": [ 4, 1, 2, 2 ], "texture": "#gray" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"thirdperson_lefthand": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ -2.5, 10.946, 0 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ -14.2, 12.337, 0 ],
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"gui": {
+			"rotation":  [ 0, 90, 0 ],
+			"translation":  [ 0.6956, 0, 0 ],
+			"scale":  [ 0.6, 0.6, 0.6 ]
+		},
+		"ground": {
+			"scale":  [ 0.0001, 0.0001, 0.0001 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, -90, 0 ],
+			"scale":  [ 0.7, 0.7, 0.7 ]
+		}
+	}
+}

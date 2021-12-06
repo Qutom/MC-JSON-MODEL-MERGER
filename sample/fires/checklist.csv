@@ -1,0 +1,6 @@
+COMMON,0_normal,2_shoot,3_reload,4_lefthand,5_sprint
+SIGHT,0,1_aim_0,2_shoot_0,,
+SIGHT,1,1_aim_1,2_shoot_1,,
+SIGHT,2,1_aim_2,2_shoot_2,,
+SIGHT,3,1_aim_3,2_shoot_3,,
+SIGHT,4,1_aim_4,2_shoot_4,,
